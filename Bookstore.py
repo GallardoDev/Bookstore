@@ -75,7 +75,7 @@ window.title('Bookstore')
 window.iconbitmap()
 window.resizable(0,0)
 window.config(bg='white')
-window.iconbitmap(r'D:\ADRIEL\PROGRAMACION\Python\Aplicaciones\bookstore\bookstore\books.ico')
+window.iconbitmap('books.ico')
 
 barra_menu=Menu(window)
 window.config(menu=barra_menu, width=300, height=300)
